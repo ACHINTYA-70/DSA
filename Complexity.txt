@@ -1,0 +1,38 @@
+time complexity is given by Big-Oh Notation O() -> time taken
+
+worst case scenario -> choose always worst so we can give the worst condition for the work done
+
+avoid constants -> input values is very large comparatively to the constant
+
+avoid lower values -> same as constant
+
+big-Oh -> worst-case (Upper Bond) , 
+Theta -> Avg-case , 
+Omega (Lower Bound)
+
+for(i->n times){
+    for(j->m times){
+        code
+    }
+}
+
+O(N^2)
+
+for(i->n times){
+    for(j->j<=i times){
+        code
+    }
+}
+
+O(N)
+
+
+Space complexity
+
+memory space, Big-Oh Notation,
+Auxiliary Space -> space that u take to solve the prob,
+input Space -> space that u take to share the input
+
+a=5,b=6 -> call as input space
+c=a+b -> call as Auxiliary space
+
