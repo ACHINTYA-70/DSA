@@ -1,0 +1,1 @@
+reading about all basics structure mistakes confusing in pass by value and pass by reference thing also learn about switch case and do while loop.
