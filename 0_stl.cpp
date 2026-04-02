@@ -41,8 +41,8 @@ void explainVector(){
 
 
     vector<int>::iterator it=v.end();  // end here 'v' points to the addess after the last element
-    vector<int>::iterator it=v.rend();  // reverse order nvr used
-    vector<int>::iterator it=v.rbegin(); //
+    // vector<int>::iterator it=v.rend();  // reverse order nvr used
+    // vector<int>::iterator it=v.rbegin(); //
 
     for(auto it:v){  // automatically prints
         cout<<it<<endl;
